@@ -57,3 +57,5 @@ Contributions are welcome if they follow the same principles:
 - Minimal dependencies
 - Clear investigative relevance
 - Clean, readable code
+
+Local tooling initialized on this machine.
