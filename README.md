@@ -1,65 +1,63 @@
 # The OSINT Vault Toolkit
 
-An open-source companion toolkit inspired by the proprietary investigation tools inside The OSINT Vault.  
-This repository provides lightweight, practical utilities that mirror real investigative workflows: reconnaissance, pivoting, metadata extraction, reporting, and structured note-taking.
-
-The goal is simple: provide investigators with clean, dependable, minimal-dependency tools that can be dropped directly into casework.
-
----
-
-## Core Philosophy
-
-This toolkit follows the same principles that guide The OSINT Vault:
-
-- Tools must be **purpose-built**, not bloated.
-- Output should be **structured**, not noisy.
-- Workflows should be **repeatable**, not improvised.
-- Code must be **readable, auditable, and modifiable**.
-- Everything should support real investigative use—not demos, not toys.
-
----
+An open-source companion toolkit inspired by the investigative workflows behind The OSINT Vault.  
+This repository contains practical utilities used for reconnaissance, pivoting, metadata inspection, reporting, and structured note-taking.  
+Each tool is designed to be direct, reliable, and suitable for real investigative work.
 
 ## Modules
 
-### **dork_patterns/**
-Open-source dork patterns and a CLI generator inspired by the proprietary  
-**Google Dork Generator** on The OSINT Vault.  
-Includes YAML-based pattern sets and a simple generator for reconnaissance pivots.
+### dork_patterns/
+Pattern sets and a command-line generator for building structured search dorks.  
+Useful for reconnaissance, surface discovery, and repeatable search logic.
 
-### **pivots/**
-A lightweight pivoting engine modeled after the  
-**Multi‑Search Launcher**.  
-Uses YAML definitions to launch coordinated searches across multiple endpoints.
+### pivots/
+YAML-driven pivot definitions and a launcher for multi-engine lookups.  
+Built to streamline repetitive search workflows across multiple platforms.
 
-### **bookmarklets/**
-Browser-native bookmarklets inspired by the  
-**Bookmarklet Library**.  
-Useful for metadata extraction, DOM inspection, link mapping, and in-page reconnaissance.
+### bookmarklets/
+Browser-native bookmarklets for in-page analysis, metadata extraction, link mapping, and DOM inspection.
 
-### **reporting/**
-Utilities that support structured intelligence reporting, similar in spirit to the  
-**Intelligence Report Composer**.  
-Includes timeline builders, summary generators, and markdown templates.
+### reporting/
+Utilities that support structured intelligence reporting, including timeline generation and markdown-based case templates.
 
-### **notes/**
-Tools for organizing raw investigative notes, reflecting the workflow behind the  
-**OSINT Vault Note Organizer**.  
-Includes note structuring, tagging, and index generation.
+### notes/
+Tools for organizing investigative notes, tagging information, and building simple indexes for case material.
 
-### **samples/**
+### samples/
 Example data for testing:
-- URLs  
-- Logs  
-- Metadata  
-- Browser artifacts  
+- URLs
+- Logs
+- Metadata
+- Browser artifacts
 
----
+## Philosophy
+
+This toolkit follows a few straightforward principles:
+
+- Tools should be single-purpose and easy to understand.
+- Output must be structured and predictable.
+- Dependencies should be minimal unless absolutely required.
+- Code must be readable, auditable, and easy to modify.
+- Everything should support real investigative workflows.
 
 ## Usage
 
-Each module is standalone.  
-No frameworks. No heavy dependencies.  
-Run tools directly from the command line.
+Each tool is standalone and can be run directly from the command line.
 
-Example:
+Examples:
 
+python3 dork_patterns/generate_dork.py list  
+python3 dork_patterns/generate_dork.py google login_pages
+
+## Contributing
+
+Contributions are welcome if they follow the same principles:
+
+- Single-purpose
+- Minimal dependencies
+- Clear investigative relevance
+- Clean, readable code
+
+## License
+
+MIT License
