@@ -6,23 +6,27 @@ on:
       - "v*"
 
 jobs:
-  publish:
+  build:
     runs-on: ubuntu-latest
 
-    permissions:
-      id-token: write
-
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - run: pip install --upgrade build
+      - name: Install build tools
+        run: |
+          pip install build twine
 
-      - run: python -m build
-        working-directory: .
+      - name: Build package
+        run: |
+          python -m build
 
-      - uses: pypa/gh-action-pypi-publish@v1.8.11
-        working-directory: .
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@v1.8.11
+        with:
+          password: ${{ secrets.PYPI_API_TOKEN }}
