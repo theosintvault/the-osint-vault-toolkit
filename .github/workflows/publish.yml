@@ -9,6 +9,9 @@ jobs:
   publish:
     runs-on: ubuntu-latest
 
+    permissions:
+      id-token: write
+
     steps:
       - uses: actions/checkout@v4
 
@@ -22,6 +25,4 @@ jobs:
         working-directory: .
 
       - uses: pypa/gh-action-pypi-publish@v1.8.11
-        with:
-          password: ${{ secrets.PYPI_API_TOKEN }}
         working-directory: .
