@@ -1,0 +1,17 @@
+{
+    "email": [
+        "breach lookup",
+        "gravatar hash",
+        "username extraction"
+    ],
+    "domain": [
+        "dns lookup",
+        "subdomain enumeration",
+        "whois lookup"
+    ],
+    "username": [
+        "social pivot",
+        "platform enumeration",
+        "avatar reuse check"
+    ]
+}
