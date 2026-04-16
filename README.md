@@ -51,6 +51,7 @@ python3 dork_patterns/generate_dork.py google login_pages
 
 ## Contributing
 
+
 Contributions are welcome if they follow the same principles:
 
 - Single-purpose
