@@ -1,65 +1,85 @@
 # The OSINT Vault Toolkit
 
-An open-source companion toolkit inspired by the investigative workflows behind The OSINT Vault.  
-This repository contains practical utilities used for reconnaissance, pivoting, metadata inspection, reporting, and structured note-taking.  
-Each tool is designed to be direct, reliable, and suitable for real investigative work.
+A practical, open-source toolkit built to support real-world OSINT workflows.  
+This repository contains focused utilities for reconnaissance, pivoting, metadata analysis, reporting, and structured note management.
+
+Each component is designed to be simple, reliable, and usable in actual investigations — not just demonstrations.
+
+---
+
+## Overview
+
+The OSINT Vault Toolkit provides modular tools that can be used independently or combined into larger investigative workflows.  
+Everything is built with clarity, repeatability, and real-world use in mind.
+
+---
 
 ## Modules
 
 ### dork_patterns/
-Pattern sets and a command-line generator for building structured search dorks.  
+Predefined search patterns and a CLI generator for building structured search queries.  
 Useful for reconnaissance, surface discovery, and repeatable search logic.
 
+---
+
 ### pivots/
-YAML-driven pivot definitions and a launcher for multi-engine lookups.  
-Built to streamline repetitive search workflows across multiple platforms.
+YAML-based pivot definitions and a launcher for multi-source lookups.  
+Designed to streamline repetitive searches across multiple platforms.
+
+---
 
 ### bookmarklets/
-Browser-native bookmarklets for in-page analysis, metadata extraction, link mapping, and DOM inspection.
+Browser-based tools for:
+- Metadata extraction  
+- Link mapping  
+- DOM inspection  
+- On-page analysis  
+
+No installation required — runs directly in the browser.
+
+---
 
 ### reporting/
-Utilities that support structured intelligence reporting, including timeline generation and markdown-based case templates.
+Utilities for structured intelligence reporting, including:
+- Timeline generation  
+- Markdown-based case templates  
+
+Built for clean, consistent documentation.
+
+---
 
 ### notes/
-Tools for organizing investigative notes, tagging information, and building simple indexes for case material.
+Lightweight tools for organizing investigative notes, tagging data, and maintaining structured case records.
+
+---
 
 ### samples/
-Example data for testing:
-- URLs
-- Logs
-- Metadata
-- Browser artifacts
+Test data for development and validation:
+- URLs  
+- Logs  
+- Metadata  
+- Browser artifacts  
 
-## Philosophy
+---
 
-This toolkit follows a few straightforward principles:
+## Design Principles
 
-- Tools should be single-purpose and easy to understand.
-- Output must be structured and predictable.
-- Dependencies should be minimal unless absolutely required.
-- Code must be readable, auditable, and easy to modify.
-- Everything should support real investigative workflows.
+This toolkit is built around a few core rules:
+
+- Single-purpose tools over complex systems  
+- Predictable, structured output  
+- Minimal dependencies  
+- Readable, auditable code  
+- Built for actual investigative use  
+
+---
 
 ## Usage
 
-Each tool is standalone and can be run directly from the command line.
+Each module can be run independently from the command line.
 
 Examples:
 
-python3 dork_patterns/generate_dork.py list  
+```bash
+python3 dork_patterns/generate_dork.py list
 python3 dork_patterns/generate_dork.py google login_pages
-
-## Contributing
-
-
-Contributions are welcome if they follow the same principles:
-
-- Single-purpose
-- Minimal dependencies
-- Clear investigative relevance
-- Clean, readable code
-
-Local tooling initialized on this machine.
-
-Local setup complete.
-
