@@ -85,7 +85,14 @@ Output:
 - Gravatar check → Gravatar  
 
 ---
+## Testing
 
+To run tests:
+
+```bash
+pytest
+
+---
 ## Contributing
 
 Keep it simple:
