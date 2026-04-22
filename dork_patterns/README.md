@@ -1,22 +1,25 @@
-# notes
+# samples
 
-Workspace for organizing investigation notes, thoughts, and intermediate findings during OSINT workflows.
+Example datasets and test data for validating and demonstrating the toolkit’s features.
 
 ## Purpose
 
-- Track hypotheses, leads, and raw observations in a structured way.
-- Make it easy to revisit or share notes as an investigation evolves.
+- Provide realistic sample input for development, demo, and testing.
+- Allow users and contributors to see example data formats and usage.
 
 ## Directory Structure
 
-- `notes_template.md` – Handy template for analysts to start from.
-- Other Markdown or text files you create for cases and leads.
+- Contains sample files such as `.json`, `.csv`, or plain text for various test cases.
 
 ## Example Usage
 
-1. Open `notes_template.md` in your preferred text editor.
-2. Duplicate and rename the file as needed for each case.
-3. Fill out the template during your investigation.
+To run a test with a sample input:
+
+```bash
+python ../pivot_engine/pivot.py --input email_samples.txt
+```
+
+Or reference the samples when writing new scripts or tests.
 
 ## Author
 
