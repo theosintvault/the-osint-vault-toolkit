@@ -106,3 +106,10 @@ Keep it simple:
 ## Status
 
 Active. Evolving with use.
+
+---
+
+## Community & Questions
+
+- [Issues](https://github.com/theosintvault/the-osint-vault-toolkit/issues) – Bug reports or feature requests  
+- [Discussions](https://github.com/theosintvault/the-osint-vault-toolkit/discussions) – For questions or ideas  
