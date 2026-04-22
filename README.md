@@ -14,6 +14,8 @@ Built for speed, clarity, and repeatable investigative processes.
 
 pip install osintvault
 
+[View on PyPI](https://pypi.org/project/osintvault/)
+
 ## Quickstart
 
 1. **Clone the repository:**
