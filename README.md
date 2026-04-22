@@ -1,5 +1,10 @@
 # OSINT Vault Toolkit
 
+[![PyPI version](https://badge.fury.io/py/osintvault.svg)](https://badge.fury.io/py/osintvault)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+- [dork_patterns](dork_patterns/README.md) – structured search generation  
+- [pivot_engine](pivot_engine/README.md) – automated pivot workflows  
+
 A modular toolkit for real-world OSINT workflows.  
 Built for speed, clarity, and repeatable investigative processes.
 
@@ -8,6 +13,26 @@ Built for speed, clarity, and repeatable investigative processes.
 ## Install
 
 pip install osintvault
+
+[View on PyPI](https://pypi.org/project/osintvault/)
+
+## Quickstart
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/theosintvault/the-osint-vault-toolkit.git
+   cd the-osint-vault-toolkit
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run a basic command:**
+   ```bash
+   python osintvault.py test@example.com
+   ```
 
 ---
 
@@ -60,7 +85,14 @@ Output:
 - Gravatar check → Gravatar  
 
 ---
+## Testing
 
+To run tests:
+
+```bash
+pytest
+
+---
 ## Contributing
 
 Keep it simple:
@@ -74,3 +106,10 @@ Keep it simple:
 ## Status
 
 Active. Evolving with use.
+
+---
+
+## Community & Questions
+
+- [Issues](https://github.com/theosintvault/the-osint-vault-toolkit/issues) – Bug reports or feature requests  
+- [Discussions](https://github.com/theosintvault/the-osint-vault-toolkit/discussions) – For questions or ideas  
