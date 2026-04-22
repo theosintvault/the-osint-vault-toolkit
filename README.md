@@ -2,6 +2,8 @@
 
 [![PyPI version](https://badge.fury.io/py/osintvault.svg)](https://badge.fury.io/py/osintvault)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+- [dork_patterns](dork_patterns/README.md) – structured search generation  
+- [pivot_engine](pivot_engine/README.md) – automated pivot workflows  
 
 A modular toolkit for real-world OSINT workflows.  
 Built for speed, clarity, and repeatable investigative processes.
