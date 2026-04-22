@@ -1,24 +1,24 @@
-# bookmarklets
+# reporting
 
-A collection of browser-based tools for instant, on-page metadata extraction and entity pivoting during OSINT investigations.
+Structured tools and templates for building OSINT investigation timelines and organizing case data.
 
 ## Purpose
 
-- Speed up analysis by executing JavaScript directly in the browser.
-- Extract information, visualize data, or interact with web pages without installing any additional extensions.
+- Standardize reporting formats to keep investigations clear and auditable.
+- Help analysts manage and export investigation data for sharing or archiving.
 
 ## Directory Structure
 
-- Contains individual JavaScript files for each bookmarklet tool.
-- Each script can be dragged to your bookmarks bar and executed on any web page.
+- `timeline.py` – Generate and update investigation timelines.
+- `case_template.md` – Markdown template for consistent OSINT case documentation.
 
 ## Example Usage
 
-1. Open one of the bookmarklet script files.
-2. Copy all the code in the file.
-3. In your browser, create a new bookmark.
-4. Paste the code into the URL/location field of the bookmark.
-5. Navigate to a target web page and click the bookmark to run the tool.
+```bash
+python timeline.py --input events.json --output timeline.md
+```
+
+Or use `case_template.md` as a starting point for OSINT investigation reporting.
 
 ## Author
 
