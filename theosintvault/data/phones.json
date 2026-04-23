@@ -1,0 +1,3 @@
+[
+  { "label": "ZLookup", "category": "phone-reverse", "url_template": "https://www.zlookup.com/phone/{q}" }
+]

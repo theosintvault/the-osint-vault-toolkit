@@ -1,0 +1,6 @@
+[
+  { "label": "VirusTotal", "category": "threat-intel", "url_template": "https://www.virustotal.com/gui/domain/{domain}" },
+  { "label": "RiskIQ Community", "category": "threat-intel", "url_template": "https://community.riskiq.com/search/{domain}" },
+  { "label": "AlienVault OTX", "category": "threat-intel", "url_template": "https://otx.alienvault.com/indicator/domain/{domain}" },
+  { "label": "DNSDumpster", "category": "subdomains", "url_template": "https://dnsdumpster.com/" }
+]

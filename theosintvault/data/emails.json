@@ -1,0 +1,6 @@
+[
+  { "label": "Email Dossier", "category": "email-intel", "url_template": "https://emaildossier.com/{q}" },
+  { "label": "Skymem", "category": "email-intel", "url_template": "https://www.skymem.info/srch?q={q}" },
+  { "label": "ThatsThem", "category": "people", "url_template": "https://thatsthem.com/email/{q}" },
+  { "label": "Epieos", "category": "email-intel", "url_template": "https://epieos.com/?q={q}" }
+]
