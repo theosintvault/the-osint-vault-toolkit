@@ -1,6 +1,22 @@
 [
-  { "label": "Email Dossier", "category": "email-intel", "url_template": "https://emaildossier.com/{q}" },
-  { "label": "Skymem", "category": "email-intel", "url_template": "https://www.skymem.info/srch?q={q}" },
-  { "label": "ThatsThem", "category": "people", "url_template": "https://thatsthem.com/email/{q}" },
-  { "label": "Epieos", "category": "email-intel", "url_template": "https://epieos.com/?q={q}" }
+  { "label": "Epieos_Google", "category": "google-leak", "url_template": "https://epieos.com/?q={q}" },
+  { "label": "HaveIBeenPwned", "category": "breach", "url_template": "https://haveibeenpwned.com/unifiedsearch/{q}" },
+  { "label": "DeHashed", "category": "credentials", "url_template": "https://www.dehashed.com/search?query={q}" },
+  { "label": "IntelX", "category": "dark-web", "url_template": "https://intelx.io/?s={q}" },
+  { "label": "Gravatar_Hash", "category": "identity-pivot", "url_template": "https://en.gravatar.com/{q}" },
+  { "label": "LeakCheck", "category": "leak-db", "url_template": "https://leakcheck.io/search?type=email&query={q}" },
+  { "label": "Hunter_io", "category": "corporate", "url_template": "https://hunter.io/search/{q}" },
+  { "label": "Skymem", "category": "professional", "url_template": "https://www.skymem.info/srch?q={q}" },
+  { "label": "ThatsThem_Email", "category": "people-search", "url_template": "https://thatsthem.com/email/{q}" },
+  { "label": "RocketReach", "category": "b2b-intel", "url_template": "https://rocketreach.co/search?query={q}" },
+  { "label": "Lusha", "category": "identity", "url_template": "https://www.lusha.com/search/results/?searchQuery={q}" },
+  { "label": "EmailRep_io", "category": "reputation", "url_template": "https://emailrep.io/{q}" },
+  { "label": "Keybase_Lookup", "category": "crypto-id", "url_template": "https://keybase.io/_/api/1.0/user/lookup.json?email={q}" },
+  { "label": "Snov_io", "category": "verifier", "url_template": "https://snov.io/email-verifier?email={q}" },
+  { "label": "AnymailFinder", "category": "lead-gen", "url_template": "https://anymailfinder.com/search?email={q}" },
+  { "label": "EmailDossier", "category": "mx-intel", "url_template": "https://emaildossier.com/{q}" },
+  { "label": "Holehe_Web", "category": "account-check", "url_template": "https://holehe.com/check/{q}" },
+  { "label": "MailTester", "category": "smtp-check", "url_template": "https://mailtester.com/test.php?email={q}" },
+  { "label": "Castrick_Filters", "category": "deep-web", "url_template": "https://castrickclues.com/search/{q}" },
+  { "label": "Scylla_sh", "category": "database", "url_template": "https://scylla.sh/search?q=email:{q}" }
 ]
