@@ -1,5 +1,5 @@
 [
-  { "label": "GitHub", "category": "code", "url_template": "https://github.com/{q}" },
+{ "label": "GitHub", "category": "code", "url_template": "https://github.com/{q}" },
   { "label": "GitLab", "category": "code", "url_template": "https://gitlab.com/{q}" },
   { "label": "Bitbucket", "category": "code", "url_template": "https://bitbucket.org/{q}" },
   { "label": "Reddit", "category": "social", "url_template": "https://www.reddit.com/user/{q}" },
@@ -48,7 +48,6 @@
   { "label": "GaiaOnline", "category": "community", "url_template": "https://www.gaiaonline.com/profiles/{q}" },
   { "label": "Furaffinity", "category": "art", "url_template": "https://www.furaffinity.net/user/{q}" },
   { "label": "ArchiveOfOurOwn", "category": "writing", "url_template": "https://archiveofourown.org/users/{q}" }
-]
   { "label": "SlideShare", "category": "presentation", "url_template": "https://www.slideshare.net/{q}" },
   { "label": "Smule", "category": "audio", "url_template": "https://www.smule.com/{q}" },
   { "label": "SourceForge", "category": "code", "url_template": "https://sourceforge.net/u/{q}/profile" },
@@ -97,7 +96,6 @@
   { "label": "LiberaPay", "category": "creator", "url_template": "https://liberapay.com/{q}" },
   { "label": "Mix", "category": "news", "url_template": "https://mix.com/{q}" },
   { "label": "MySpace", "category": "social", "url_template": "https://myspace.com/{q}" }
-]
   { "label": "MyMiniFactory", "category": "maker", "url_template": "https://www.myminifactory.com/users/{q}" },
   { "label": "NationStates", "category": "community", "url_template": "https://www.nationstates.net/nation={q}" },
   { "label": "Neocities", "category": "web", "url_template": "https://neocities.org/site/{q}" },
@@ -147,7 +145,6 @@
   { "label": "Unsplash", "category": "photo", "url_template": "https://unsplash.com/@{q}" },
   { "label": "Vercel", "category": "devops", "url_template": "https://vercel.com/{q}" },
   { "label": "Vine Archive", "category": "video", "url_template": "https://vine.co/{q}" }
-]
   { "label": "Vero", "category": "social", "url_template": "https://vero.co/{q}" },
   { "label": "VidLii", "category": "video", "url_template": "https://www.vidlii.com/user/{q}" },
   { "label": "Virustotal Profile", "category": "security", "url_template": "https://www.virustotal.com/gui/user/{q}" },
@@ -196,7 +193,6 @@
   { "label": "Flickr Groups", "category": "photo", "url_template": "https://www.flickr.com/people/{q}" },
   { "label": "FurVilla", "category": "community", "url_template": "https://www.furvilla.com/profile/{q}" },
   { "label": "GaiaOnline", "category": "community", "url_template": "https://www.gaiaonline.com/profiles/{q}" }
-]
   { "label": "GameJolt", "category": "gaming", "url_template": "https://gamejolt.com/@{q}" },
   { "label": "Geocaching", "category": "outdoors", "url_template": "https://www.geocaching.com/p/default.aspx?u={q}" },
   { "label": "GeeksforGeeks", "category": "dev", "url_template": "https://auth.geeksforgeeks.org/user/{q}/profile" },
@@ -246,7 +242,6 @@
   { "label": "Pinkbike", "category": "outdoors", "url_template": "https://www.pinkbike.com/u/{q}" },
   { "label": "PlayStation Network", "category": "gaming", "url_template": "https://psnprofiles.com/{q}" },
   { "label": "PoetrySoup", "category": "writing", "url_template": "https://www.poetrysoup.com/poet/{q}" }
-]
   { "label": "PortfolioBox", "category": "design", "url_template": "https://www.portfoliobox.net/{q}" },
   { "label": "Postcrossing", "category": "hobby", "url_template": "https://www.postcrossing.com/user/{q}" },
   { "label": "Quizlet", "category": "education", "url_template": "https://quizlet.com/{q}" },
@@ -297,7 +292,6 @@
   { "label": "VS Battles Wiki", "category": "community", "url_template": "https://vsbattles.fandom.com/wiki/User:{q}" },
   { "label": "Warframe", "category": "gaming", "url_template": "https://warframe.market/profile/{q}" },
   { "label": "Wattpad Lists", "category": "writing", "url_template": "https://www.wattpad.com/user/{q}/lists" }
-]
   { "label": "Weebly", "category": "web", "url_template": "https://{q}.weebly.com" },
   { "label": "Wikidot Profile", "category": "community", "url_template": "http://www.wikidot.com/user:info/{q}" },
   { "label": "WikiTree", "category": "genealogy", "url_template": "https://www.wikitree.com/wiki/Special:SearchPerson?search={q}" },
@@ -346,7 +340,6 @@
   { "label": "Couchsurfing Groups", "category": "travel", "url_template": "https://www.couchsurfing.com/groups/{q}" },
   { "label": "CreativeLive", "category": "education", "url_template": "https://www.creativelive.com/student/{q}" },
   { "label": "Crevado", "category": "design", "url_template": "https://{q}.crevado.com" }
-]
   { "label": "Cracked", "category": "community", "url_template": "https://www.cracked.com/members/{q}" },
   { "label": "Crunchyroll", "category": "anime", "url_template": "https://www.crunchyroll.com/user/{q}" },
   { "label": "CurseForge", "category": "gaming", "url_template": "https://www.curseforge.com/members/{q}" },
@@ -395,7 +388,6 @@
   { "label": "Modrinth", "category": "gaming", "url_template": "https://modrinth.com/user/{q}" },
   { "label": "Musescore", "category": "music", "url_template": "https://musescore.com/{q}" },
   { "label": "MyAnimeList Reviews", "category": "anime", "url_template": "https://myanimelist.net/profile/{q}/reviews" }
-]
   { "label": "MyAnimeList Clubs", "category": "anime", "url_template": "https://myanimelist.net/profile/{q}/clubs" },
   { "label": "MyFigureCollection Lists", "category": "hobby", "url_template": "https://myfigurecollection.net/profile/{q}/lists" },
   { "label": "MyMiniFactory Collections", "category": "maker", "url_template": "https://www.myminifactory.com/users/{q}/collections" },
@@ -445,7 +437,6 @@
   { "label": "Taplink Pages", "category": "bio", "url_template": "https://taplink.cc/{q}/pages" },
   { "label": "Teachable Courses", "category": "education", "url_template": "https://{q}.teachable.com/courses" },
   { "label": "Thingiverse Collections", "category": "maker", "url_template": "https://www.thingiverse.com/{q}/collections" }
-]
   { "label": "MyAnimeList Friends", "category": "anime", "url_template": "https://myanimelist.net/profile/{q}/friends" },
   { "label": "MyDramaList", "category": "tv", "url_template": "https://mydramalist.com/profile/{q}" },
   { "label": "MyFigureCollection Photos", "category": "hobby", "url_template": "https://myfigurecollection.net/profile/{q}/pictures" },
@@ -497,7 +488,6 @@
   { "label": "Tapastic Library", "category": "comics", "url_template": "https://tapas.io/{q}/library" },
   { "label": "TeamTreehouse Badges", "category": "education", "url_template": "https://teamtreehouse.com/{q}/badges" },
   { "label": "TechSpot Posts", "category": "tech", "url_template": "https://www.techspot.com/community/members/{q}/posts" }
-]
   { "label": "MyAnimeList Friends", "category": "anime", "url_template": "https://myanimelist.net/profile/{q}/friends" },
   { "label": "MyDramaList", "category": "tv", "url_template": "https://mydramalist.com/profile/{q}" },
   { "label": "MyFigureCollection Photos", "category": "hobby", "url_template": "https://myfigurecollection.net/profile/{q}/pictures" },
@@ -549,7 +539,6 @@
   { "label": "Tapastic Library", "category": "comics", "url_template": "https://tapas.io/{q}/library" },
   { "label": "TeamTreehouse Badges", "category": "education", "url_template": "https://teamtreehouse.com/{q}/badges" },
   { "label": "TechSpot Posts", "category": "tech", "url_template": "https://www.techspot.com/community/members/{q}/posts" }
-]
   { "label": "Tinder", "category": "dating", "url_template": "https://www.gotinder.com/@{q}" },
   { "label": "Bumble", "category": "dating", "url_template": "https://bumble.com/en-us/profile/{q}" },
   { "label": "Hinge", "category": "dating", "url_template": "https://hinge.co/{q}" },
@@ -563,7 +552,6 @@
   { "label": "CoffeeMeetsBagel", "category": "dating", "url_template": "https://coffeemeetsbagel.com/{q}" },
   { "label": "Clover", "category": "dating", "url_template": "https://clover.co/{q}" },
   { "label": "Skout", "category": "dating", "url_template": "https://www.skout.com/{q}" },
-
   { "label": "Grindr", "category": "dating_lgbtq", "url_template": "https://grindr.com/{q}" },
   { "label": "HER", "category": "dating_lgbtq", "url_template": "https://weareher.com/{q}" },
   { "label": "Taimi", "category": "dating_lgbtq", "url_template": "https://taimi.com/{q}" },
@@ -572,11 +560,9 @@
   { "label": "Hornet", "category": "dating_lgbtq", "url_template": "https://hornet.com/{q}" },
   { "label": "Zoe", "category": "dating_lgbtq", "url_template": "https://www.zoeapp.co/{q}" },
   { "label": "Lex", "category": "dating_lgbtq", "url_template": "https://thisislex.app/{q}" },
-
   { "label": "Feeld", "category": "dating_poly", "url_template": "https://feeld.co/{q}" },
   { "label": "Open", "category": "dating_poly", "url_template": "https://www.hashtagopen.com/{q}" },
   { "label": "PolyFinda", "category": "dating_poly", "url_template": "https://polyfinda.com/{q}" },
-
   { "label": "BLK", "category": "dating_cultural", "url_template": "https://www.blk-app.com/{q}" },
   { "label": "Chispa", "category": "dating_cultural", "url_template": "https://www.chispa-app.com/{q}" },
   { "label": "JSwipe", "category": "dating_cultural", "url_template": "https://jswipeapp.com/{q}" },
@@ -587,7 +573,6 @@
   { "label": "TrulyMadly", "category": "dating_cultural", "url_template": "https://www.trulymadly.com/{q}" },
   { "label": "Tantan", "category": "dating_cultural", "url_template": "https://tantanapp.com/{q}" },
   { "label": "Mamba", "category": "dating_cultural", "url_template": "https://mamba.ru/{q}" },
-
   { "label": "Wapa", "category": "dating_lgbtq", "url_template": "https://wapa-app.com/{q}" },
   { "label": "Hily", "category": "dating", "url_template": "https://hily.com/{q}" },
   { "label": "Bristlr", "category": "dating", "url_template": "https://bristlr.com/{q}" },
@@ -597,7 +582,6 @@
   { "label": "Lovoo", "category": "dating", "url_template": "https://www.lovoo.com/{q}" },
   { "label": "BumbleBFF", "category": "social", "url_template": "https://bumble.com/en-us/profile/{q}/bff" },
   { "label": "BumbleBizz", "category": "career", "url_template": "https://bumble.com/en-us/profile/{q}/bizz" }
-]
   { "label": "Reddit", "category": "forum", "url_template": "https://www.reddit.com/user/{q}" },
   { "label": "RedditOld", "category": "forum", "url_template": "https://old.reddit.com/user/{q}" },
   { "label": "RedditNew", "category": "forum", "url_template": "https://new.reddit.com/user/{q}" },
@@ -606,14 +590,12 @@
   { "label": "RedditOverview", "category": "forum", "url_template": "https://www.reddit.com/user/{q}/overview" },
   { "label": "RedditGilded", "category": "forum", "url_template": "https://www.reddit.com/user/{q}/gilded" },
   { "label": "RedditSaved", "category": "forum", "url_template": "https://www.reddit.com/user/{q}/saved" },
-
   { "label": "LemmyWorld", "category": "forum", "url_template": "https://lemmy.world/u/{q}" },
   { "label": "LemmyML", "category": "forum", "url_template": "https://lemmy.ml/u/{q}" },
   { "label": "Kbin", "category": "forum", "url_template": "https://kbin.social/u/{q}" },
   { "label": "Raddle", "category": "forum", "url_template": "https://raddle.me/u/{q}" },
   { "label": "Saidit", "category": "forum", "url_template": "https://saidit.net/u/{q}" },
   { "label": "RuqqusArchive", "category": "forum", "url_template": "https://ruqqus.com/@{q}" },
-
   { "label": "SomethingAwful", "category": "forum", "url_template": "https://forums.somethingawful.com/member.php?action=getinfo&username={q}" },
   { "label": "ArsTechnica", "category": "forum", "url_template": "https://arstechnica.com/civis/memberlist.php?mode=viewprofile&u={q}" },
   { "label": "LinusTechTips", "category": "forum", "url_template": "https://linustechtips.com/profile/{q}" },
@@ -623,7 +605,6 @@
   { "label": "GameFAQs", "category": "forum", "url_template": "https://gamefaqs.gamespot.com/community/{q}" },
   { "label": "HackerNews", "category": "forum", "url_template": "https://news.ycombinator.com/user?id={q}" },
   { "label": "Slashdot", "category": "forum", "url_template": "https://slashdot.org/~{q}" },
-
   { "label": "GaiaOnline", "category": "community", "url_template": "https://www.gaiaonline.com/profiles/{q}" },
   { "label": "FanFiction", "category": "community", "url_template": "https://www.fanfiction.net/u/{q}" },
   { "label": "DeviantArt", "category": "community", "url_template": "https://www.deviantart.com/{q}" },
@@ -634,23 +615,19 @@
   { "label": "Cohost", "category": "community", "url_template": "https://cohost.org/{q}" },
   { "label": "Pillowfort", "category": "community", "url_template": "https://www.pillowfort.social/{q}" },
   { "label": "SpaceHey", "category": "community", "url_template": "https://spacehey.com/{q}" },
-
   { "label": "WrongPlanet", "category": "community", "url_template": "https://wrongplanet.net/forums/profile.php?mode=viewprofile&u={q}" },
   { "label": "MetaFilter", "category": "community", "url_template": "https://www.metafilter.com/user/{q}" },
   { "label": "Tildes", "category": "community", "url_template": "https://tildes.net/user/{q}" },
-
   { "label": "Neocities", "category": "web", "url_template": "https://neocities.org/site/{q}" },
   { "label": "ArchiveOrg", "category": "archive", "url_template": "https://archive.org/details/@{q}" },
   { "label": "Wikidot", "category": "wiki", "url_template": "http://www.wikidot.com/user:info/{q}" },
   { "label": "WikiHow", "category": "wiki", "url_template": "https://www.wikihow.com/User:{q}" },
   { "label": "Fandom", "category": "wiki", "url_template": "https://www.fandom.com/u/{q}" },
-
   { "label": "BoardGameGeek", "category": "hobby", "url_template": "https://boardgamegeek.com/user/{q}" },
   { "label": "MyAnimeList", "category": "anime", "url_template": "https://myanimelist.net/profile/{q}" },
   { "label": "AniList", "category": "anime", "url_template": "https://anilist.co/user/{q}" },
   { "label": "Letterboxd", "category": "movies", "url_template": "https://letterboxd.com/{q}" },
   { "label": "Goodreads", "category": "books", "url_template": "https://www.goodreads.com/user/show/{q}" }
-]
   { "label": "StackOverflow", "category": "forum", "url_template": "https://stackoverflow.com/users/{q}" },
   { "label": "SuperUser", "category": "forum", "url_template": "https://superuser.com/users/{q}" },
   { "label": "ServerFault", "category": "forum", "url_template": "https://serverfault.com/users/{q}" },
@@ -661,49 +638,41 @@
   { "label": "WebmastersSE", "category": "forum", "url_template": "https://webmasters.stackexchange.com/users/{q}" },
   { "label": "MathStackExchange", "category": "forum", "url_template": "https://math.stackexchange.com/users/{q}" },
   { "label": "PhysicsStackExchange", "category": "forum", "url_template": "https://physics.stackexchange.com/users/{q}" },
-
   { "label": "ArsTechnicaOpenForum", "category": "forum", "url_template": "https://arstechnica.com/civis/memberlist.php?mode=viewprofile&u={q}" },
   { "label": "TomHardware", "category": "forum", "url_template": "https://forums.tomshardware.com/members/{q}" },
   { "label": "TechPowerUp", "category": "forum", "url_template": "https://www.techpowerup.com/forums/members/{q}" },
   { "label": "Overclockers", "category": "forum", "url_template": "https://www.overclockers.com/forums/members/{q}" },
   { "label": "HardForum", "category": "forum", "url_template": "https://hardforum.com/members/{q}" },
-
   { "label": "GameSpotForums", "category": "forum", "url_template": "https://www.gamespot.com/profile/{q}" },
   { "label": "IGNBoards", "category": "forum", "url_template": "https://www.ignboards.com/members/{q}" },
   { "label": "SteamDiscussions", "category": "forum", "url_template": "https://steamcommunity.com/profiles/{q}" },
   { "label": "MMOChampion", "category": "forum", "url_template": "https://www.mmo-champion.com/members/{q}" },
   { "label": "TeamLiquid", "category": "forum", "url_template": "https://tl.net/forum/profile.php?user={q}" },
-
   { "label": "MyBroadband", "category": "forum", "url_template": "https://mybroadband.co.za/forum/members/{q}" },
   { "label": "LowEndTalk", "category": "forum", "url_template": "https://lowendtalk.com/profile/{q}" },
   { "label": "LinodeCommunity", "category": "forum", "url_template": "https://www.linode.com/community/users/{q}" },
   { "label": "DigitalOceanCommunity", "category": "forum", "url_template": "https://www.digitalocean.com/community/users/{q}" },
   { "label": "ProtonMailCommunity", "category": "forum", "url_template": "https://protonmail.com/support/users/{q}" },
-
   { "label": "MetaFilterProfile", "category": "community", "url_template": "https://www.metafilter.com/user/{q}" },
   { "label": "Kuro5hinArchive", "category": "community", "url_template": "https://www.kuro5hin.org/user/{q}" },
   { "label": "TildesProfile", "category": "community", "url_template": "https://tildes.net/user/{q}" },
   { "label": "CohostProfile", "category": "community", "url_template": "https://cohost.org/{q}" },
   { "label": "DreamWidthProfile", "category": "community", "url_template": "https://{q}.dreamwidth.org" },
-
   { "label": "WrongPlanetProfile", "category": "community", "url_template": "https://wrongplanet.net/forums/profile.php?mode=viewprofile&u={q}" },
   { "label": "RPGGeek", "category": "hobby", "url_template": "https://rpggeek.com/user/{q}" },
   { "label": "AnimePlanet", "category": "anime", "url_template": "https://www.anime-planet.com/users/{q}" },
   { "label": "KitsuProfile", "category": "anime", "url_template": "https://kitsu.app/users/{q}" },
   { "label": "AniDB", "category": "anime", "url_template": "https://anidb.net/user/{q}" },
-
   { "label": "GoodreadsGroups", "category": "books", "url_template": "https://www.goodreads.com/user/show/{q}/groups" },
   { "label": "LibraryThing", "category": "books", "url_template": "https://www.librarything.com/profile/{q}" },
   { "label": "BookCrossing", "category": "books", "url_template": "https://www.bookcrossing.com/mybookshelf/{q}" },
   { "label": "FanFictionForums", "category": "writing", "url_template": "https://www.fanfiction.net/u/{q}/forums" },
   { "label": "ArchiveOfOurOwn", "category": "writing", "url_template": "https://archiveofourown.org/users/{q}" },
-
   { "label": "InstructablesForum", "category": "maker", "url_template": "https://www.instructables.com/member/{q}/instructables" },
   { "label": "HackadayProfile", "category": "maker", "url_template": "https://hackaday.io/{q}" },
   { "label": "ThingiverseProfile", "category": "maker", "url_template": "https://www.thingiverse.com/{q}" },
   { "label": "Printables", "category": "maker", "url_template": "https://www.printables.com/social/{q}" },
   { "label": "TinkerCADCommunity", "category": "maker", "url_template": "https://www.tinkercad.com/users/{q}" }
-]
   { "label": "NameMC", "category": "gaming", "url_template": "https://namemc.com/profile/{q}" },
   { "label": "Speedrun", "category": "gaming", "url_template": "https://www.speedrun.com/users/{q}" },
   { "label": "BackpackTF", "category": "gaming", "url_template": "https://backpack.tf/profiles/{q}" },
@@ -711,35 +680,28 @@
   { "label": "RobloxInventory", "category": "gaming", "url_template": "https://www.roblox.com/users/{q}/inventory" },
   { "label": "SteamIDFinder", "category": "gaming", "url_template": "https://steamid.uk/profile/{q}" },
   { "label": "SteamRep", "category": "gaming", "url_template": "https://steamrep.com/profiles/{q}" },
-
   { "label": "Keybase", "category": "crypto", "url_template": "https://keybase.io/{q}" },
   { "label": "BlockchainInfo", "category": "crypto", "url_template": "https://www.blockchain.com/btc/address/{q}" },
   { "label": "OpenSea", "category": "crypto", "url_template": "https://opensea.io/{q}" },
-
   { "label": "Pastebin", "category": "paste", "url_template": "https://pastebin.com/u/{q}" },
   { "label": "Ghostbin", "category": "paste", "url_template": "https://ghostbin.com/u/{q}" },
   { "label": "Rentry", "category": "paste", "url_template": "https://rentry.co/{q}" },
   { "label": "Hastebin", "category": "paste", "url_template": "https://hastebin.com/u/{q}" },
-
   { "label": "Codeberg", "category": "code", "url_template": "https://codeberg.org/{q}" },
   { "label": "SourceHut", "category": "code", "url_template": "https://sr.ht/~{q}" },
   { "label": "NotABug", "category": "code", "url_template": "https://notabug.org/{q}" },
   { "label": "Gitea", "category": "code", "url_template": "https://gitea.com/{q}" },
   { "label": "GitLabSelfHosted", "category": "code", "url_template": "https://gitlab.com/{q}" },
-
   { "label": "LemmyWorld", "category": "forum", "url_template": "https://lemmy.world/u/{q}" },
   { "label": "KbinSocial", "category": "forum", "url_template": "https://kbin.social/u/{q}" },
   { "label": "Raddle", "category": "forum", "url_template": "https://raddle.me/u/{q}" },
   { "label": "Saidit", "category": "forum", "url_template": "https://saidit.net/u/{q}" },
-
   { "label": "MyAnimeList", "category": "anime", "url_template": "https://myanimelist.net/profile/{q}" },
   { "label": "AniList", "category": "anime", "url_template": "https://anilist.co/user/{q}" },
   { "label": "AnimePlanet", "category": "anime", "url_template": "https://www.anime-planet.com/users/{q}" },
-
   { "label": "BoardGameGeek", "category": "hobby", "url_template": "https://boardgamegeek.com/user/{q}" },
   { "label": "RPGGeek", "category": "hobby", "url_template": "https://rpggeek.com/user/{q}" },
-  { "label": "Letterboxd", "category": "movies", "url_template": "https://letterboxd.com/{q}" }
-[
+  { "label": "Letterboxd", "category": "movies", "url_template": "https://letterboxd.com/{q}" },
   { "label": "Tinder", "url_template": "https://tinder.com/@{q}" },
   { "label": "Badoo", "url_template": "https://badoo.com/profile/{q}" },
   { "label": "Happn", "url_template": "https://www.happn.com/en/user/{q}" },
@@ -754,5 +716,5 @@
   { "label": "Doublelist", "url_template": "https://doublelist.com/profile/{q}" },
   { "label": "Tagged", "url_template": "https://www.tagged.com/{q}" },
   { "label": "FetLife", "url_template": "https://fetlife.com/users/{q}" },
-  { "label": "Muzz", "url_template": "https://muzz.com/community/{q}" }
+  { "label": "Muzz", "url_template": "https://muzz.com/community/{q}" },
 ]
