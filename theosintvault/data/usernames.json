@@ -739,4 +739,20 @@
   { "label": "BoardGameGeek", "category": "hobby", "url_template": "https://boardgamegeek.com/user/{q}" },
   { "label": "RPGGeek", "category": "hobby", "url_template": "https://rpggeek.com/user/{q}" },
   { "label": "Letterboxd", "category": "movies", "url_template": "https://letterboxd.com/{q}" }
+[
+  { "label": "Tinder", "url_template": "https://tinder.com/@{q}" },
+  { "label": "Badoo", "url_template": "https://badoo.com/profile/{q}" },
+  { "label": "Happn", "url_template": "https://www.happn.com/en/user/{q}" },
+  { "label": "Feeld", "url_template": "https://feeld.co/user/{q}" },
+  { "label": "Sniffies", "url_template": "https://sniffies.com/profile/{q}" },
+  { "label": "Adam4Adam", "url_template": "https://www.adam4adam.com/profiles/{q}" },
+  { "label": "Growlr", "url_template": "https://growlrapp.com/user/{q}" },
+  { "label": "Hornet", "url_template": "https://hornet.com/profile/{q}" },
+  { "label": "Scruff", "url_template": "https://scruff.com/profile/{q}" },
+  { "label": "Pure", "url_template": "https://pure.app/user/{q}" },
+  { "label": "AshleyMadison_Check", "url_template": "https://ashley.pwned.com/check/{q}" },
+  { "label": "Doublelist", "url_template": "https://doublelist.com/profile/{q}" },
+  { "label": "Tagged", "url_template": "https://www.tagged.com/{q}" },
+  { "label": "FetLife", "url_template": "https://fetlife.com/users/{q}" },
+  { "label": "Muzz", "url_template": "https://muzz.com/community/{q}" }
 ]
