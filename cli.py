@@ -57,4 +57,15 @@ def main():
         executor.map(lambda p: verify_site(p['label'], p['url_template'], target), platforms)
 
 if __name__ == '__main__':
+    main()import argparse, json, re, urllib.parse, requests
+from pathlib import Path
+from colorama import Fore, Style, init
+init(autoreset=True)
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('target')
+    args = parser.parse_args()
+    print(f"{Fore.CYAN}[*] VaultX Active: Scanning {args.target}")
+if __name__ == "__main__":
     main()
+    
