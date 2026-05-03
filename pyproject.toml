@@ -3,10 +3,14 @@ name = "vaultx"
 version = "1.0.0"
 description = "High-velocity OSINT pivot engine."
 authors = ["VaultX Dev Team"]
-packages = [{include = "theosintvault"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.31.0"
+colorama = "^0.4.6"
 
 [tool.poetry.scripts]
-vaultx = "theosintvault.cli:main"
+vaultx = "cli:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
