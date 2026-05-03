@@ -12,7 +12,7 @@ EMAIL_RE = re.compile(r'^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$', re.I)
 PHONE_RE = re.compile(r'^\+?1?\d{9,15}$')
 USERNAME_RE = re.compile(r'^[a-zA-Z0-9._-]{3,25}$')
 
-# Absolute path fix to find data folder regardless of where you run it
+# Ensures it finds the data folder in the root
 DATA_DIR = Path(__file__).resolve().parent / "data"
 
 def load_data(kind):
@@ -35,7 +35,7 @@ def verify_site(label, url_template, query):
     return None
 
 def main():
-    parser = argparse.ArgumentParser(description='VaultX: High-Fidelity OSINT')
+    parser = argparse.ArgumentParser(description='VaultX: Elite OSINT Engine')
     parser.add_argument('target', help='Target to trace')
     args = parser.parse_args()
 
@@ -52,7 +52,7 @@ def main():
         print(f"{Fore.CYAN}[*] Target Type: USERNAME")
 
     platforms = load_data(data_type)
-    print(f"[*] Scanning {len(platforms)} vectors...\n")
+    print(f"[*] Scanning {len(platforms)} vectors from {DATA_DIR}...\n")
     
     with ThreadPoolExecutor(max_workers=10) as executor:
         executor.map(lambda p: verify_site(p['label'], p['url_template'], target), platforms)
