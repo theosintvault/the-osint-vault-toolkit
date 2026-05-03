@@ -145,11 +145,17 @@ def pivots_phone(entity: str):
 # ----------------------------------------
 # DOMAIN SCAN ENGINE
 # ----------------------------------------
-
 def scan_domain(domain: str):
     d = urllib.parse.quote_plus(domain)
-
     return {
         "domain": domain,
         "intel": [
-            {"label": "crt.sh", "category": "ct-logs", "url": f"https://crt.sh
+            {"label": "crt.sh", "category": "ct-logs", "url": f"https://crt.sh/?q=%25{d}"},
+            {"label": "SecurityTrails", "category": "infra", "url": f"https://securitytrails.com/domain/{domain}"},
+            {"label": "ViewDNS", "category": "infra", "url": f"https://viewdns.info/dnsrecord/?domain={d}"},
+            {"label": "URLScan", "category": "web-scan", "url": f"https://urlscan.io/search/#domain:{d}"},
+            {"label": "Shodan", "category": "infra-scan", "url": f"https://www.shodan.io/search?query={d}"},
+            {"label": "Censys", "category": "infra-scan", "url": f"https://search.censys.io/search?resource=hosts&q={d}"},
+            {"label": "Wayback", "category": "archive", "url": f"https://web.archive.org/web/*/{domain}"}
+        ]
+    }
