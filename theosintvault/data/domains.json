@@ -1,6 +1,17 @@
 [
-  { "label": "VirusTotal", "category": "threat-intel", "url_template": "https://www.virustotal.com/gui/domain/{domain}" },
-  { "label": "RiskIQ Community", "category": "threat-intel", "url_template": "https://community.riskiq.com/search/{domain}" },
-  { "label": "AlienVault OTX", "category": "threat-intel", "url_template": "https://otx.alienvault.com/indicator/domain/{domain}" },
-  { "label": "DNSDumpster", "category": "subdomains", "url_template": "https://dnsdumpster.com/" }
+  { "label": "SecurityTrails", "category": "dns-history", "url_template": "https://securitytrails.com/domain/{q}" },
+  { "label": "DNSDumpster", "category": "mapping", "url_template": "https://dnsdumpster.com/static/map/{q}.png" },
+  { "label": "crt_sh", "category": "ct-logs", "url_template": "https://crt.sh/?q={q}" },
+  { "label": "Censys", "category": "infrastructure", "url_template": "https://search.censys.io/search?q={q}" },
+  { "label": "BuiltWith", "category": "tech-stack", "url_template": "https://builtwith.com/{q}" },
+  { "label": "ViewDNS", "category": "multi-tool", "url_template": "https://viewdns.info/reversewhois/?q={q}" },
+  { "label": "Shodan", "category": "vuln-scan", "url_template": "https://www.shodan.io/search?query={q}" },
+  { "label": "VirusTotal", "category": "reputation", "url_template": "https://www.virustotal.com/gui/domain/{q}" },
+  { "label": "Whois_io", "category": "registration", "url_template": "https://whois.com/whois/{q}" },
+  { "label": "Robtex", "category": "routing-intel", "url_template": "https://www.robtex.com/dns-lookup/{q}" },
+  { "label": "Sublist3r_Web", "category": "subdomains", "url_template": "https://sublist3r.com/search.php?domain={q}" },
+  { "label": "Amass_Web", "category": "enumeration", "url_template": "https://amass.re/search/{q}" },
+  { "label": "PentestTools", "category": "recon", "url_template": "https://pentest-tools.com/domain-scan/{q}" },
+  { "label": "RiskIQ", "category": "passive-dns", "url_template": "https://community.riskiq.com/search/{q}" },
+  { "label": "WaybackMachine", "category": "archival", "url_template": "https://web.archive.org/web/*/{q}" }
 ]
