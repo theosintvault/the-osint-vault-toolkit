@@ -47,7 +47,7 @@
   { "label": "LiveJournal", "category": "blog", "url_template": "https://www.livejournal.com/users/{q}" },
   { "label": "GaiaOnline", "category": "community", "url_template": "https://www.gaiaonline.com/profiles/{q}" },
   { "label": "Furaffinity", "category": "art", "url_template": "https://www.furaffinity.net/user/{q}" },
-  { "label": "ArchiveOfOurOwn", "category": "writing", "url_template": "https://archiveofourown.org/users/{q}" }
+  { "label": "ArchiveOfOurOwn", "category": "writing", "url_template": "https://archiveofourown.org/users/{q}" },
   { "label": "SlideShare", "category": "presentation", "url_template": "https://www.slideshare.net/{q}" },
   { "label": "Smule", "category": "audio", "url_template": "https://www.smule.com/{q}" },
   { "label": "SourceForge", "category": "code", "url_template": "https://sourceforge.net/u/{q}/profile" },
@@ -95,7 +95,7 @@
   { "label": "Letterboxd", "category": "movies", "url_template": "https://letterboxd.com/{q}" },
   { "label": "LiberaPay", "category": "creator", "url_template": "https://liberapay.com/{q}" },
   { "label": "Mix", "category": "news", "url_template": "https://mix.com/{q}" },
-  { "label": "MySpace", "category": "social", "url_template": "https://myspace.com/{q}" }
+  { "label": "MySpace", "category": "social", "url_template": "https://myspace.com/{q}" },
   { "label": "MyMiniFactory", "category": "maker", "url_template": "https://www.myminifactory.com/users/{q}" },
   { "label": "NationStates", "category": "community", "url_template": "https://www.nationstates.net/nation={q}" },
   { "label": "Neocities", "category": "web", "url_template": "https://neocities.org/site/{q}" },
@@ -144,7 +144,7 @@
   { "label": "TwitchTracker", "category": "gaming", "url_template": "https://twitchtracker.com/{q}" },
   { "label": "Unsplash", "category": "photo", "url_template": "https://unsplash.com/@{q}" },
   { "label": "Vercel", "category": "devops", "url_template": "https://vercel.com/{q}" },
-  { "label": "Vine Archive", "category": "video", "url_template": "https://vine.co/{q}" }
+  { "label": "Vine Archive", "category": "video", "url_template": "https://vine.co/{q}" },
   { "label": "Vero", "category": "social", "url_template": "https://vero.co/{q}" },
   { "label": "VidLii", "category": "video", "url_template": "https://www.vidlii.com/user/{q}" },
   { "label": "Virustotal Profile", "category": "security", "url_template": "https://www.virustotal.com/gui/user/{q}" },
@@ -241,7 +241,7 @@
   { "label": "Pillowfort", "category": "blog", "url_template": "https://www.pillowfort.social/{q}" },
   { "label": "Pinkbike", "category": "outdoors", "url_template": "https://www.pinkbike.com/u/{q}" },
   { "label": "PlayStation Network", "category": "gaming", "url_template": "https://psnprofiles.com/{q}" },
-  { "label": "PoetrySoup", "category": "writing", "url_template": "https://www.poetrysoup.com/poet/{q}" }
+  { "label": "PoetrySoup", "category": "writing", "url_template": "https://www.poetrysoup.com/poet/{q}" },
   { "label": "PortfolioBox", "category": "design", "url_template": "https://www.portfoliobox.net/{q}" },
   { "label": "Postcrossing", "category": "hobby", "url_template": "https://www.postcrossing.com/user/{q}" },
   { "label": "Quizlet", "category": "education", "url_template": "https://quizlet.com/{q}" },
@@ -291,7 +291,7 @@
   { "label": "Vimeo Groups", "category": "video", "url_template": "https://vimeo.com/{q}/groups" },
   { "label": "VS Battles Wiki", "category": "community", "url_template": "https://vsbattles.fandom.com/wiki/User:{q}" },
   { "label": "Warframe", "category": "gaming", "url_template": "https://warframe.market/profile/{q}" },
-  { "label": "Wattpad Lists", "category": "writing", "url_template": "https://www.wattpad.com/user/{q}/lists" }
+  { "label": "Wattpad Lists", "category": "writing", "url_template": "https://www.wattpad.com/user/{q}/lists" },
   { "label": "Weebly", "category": "web", "url_template": "https://{q}.weebly.com" },
   { "label": "Wikidot Profile", "category": "community", "url_template": "http://www.wikidot.com/user:info/{q}" },
   { "label": "WikiTree", "category": "genealogy", "url_template": "https://www.wikitree.com/wiki/Special:SearchPerson?search={q}" },
@@ -339,7 +339,7 @@
   { "label": "ComicFury", "category": "comics", "url_template": "https://comicfury.com/profile.php?username={q}" },
   { "label": "Couchsurfing Groups", "category": "travel", "url_template": "https://www.couchsurfing.com/groups/{q}" },
   { "label": "CreativeLive", "category": "education", "url_template": "https://www.creativelive.com/student/{q}" },
-  { "label": "Crevado", "category": "design", "url_template": "https://{q}.crevado.com" }
+  { "label": "Crevado", "category": "design", "url_template": "https://{q}.crevado.com" },
   { "label": "Cracked", "category": "community", "url_template": "https://www.cracked.com/members/{q}" },
   { "label": "Crunchyroll", "category": "anime", "url_template": "https://www.crunchyroll.com/user/{q}" },
   { "label": "CurseForge", "category": "gaming", "url_template": "https://www.curseforge.com/members/{q}" },
@@ -436,7 +436,7 @@
   { "label": "Swarm Photos", "category": "location", "url_template": "https://www.swarmapp.com/{q}/photos" },
   { "label": "Taplink Pages", "category": "bio", "url_template": "https://taplink.cc/{q}/pages" },
   { "label": "Teachable Courses", "category": "education", "url_template": "https://{q}.teachable.com/courses" },
-  { "label": "Thingiverse Collections", "category": "maker", "url_template": "https://www.thingiverse.com/{q}/collections" }
+  { "label": "Thingiverse Collections", "category": "maker", "url_template": "https://www.thingiverse.com/{q}/collections" },
   { "label": "MyAnimeList Friends", "category": "anime", "url_template": "https://myanimelist.net/profile/{q}/friends" },
   { "label": "MyDramaList", "category": "tv", "url_template": "https://mydramalist.com/profile/{q}" },
   { "label": "MyFigureCollection Photos", "category": "hobby", "url_template": "https://myfigurecollection.net/profile/{q}/pictures" },
@@ -487,7 +487,7 @@
   { "label": "SublimeForum Posts", "category": "dev", "url_template": "https://forum.sublimetext.com/u/{q}/activity" },
   { "label": "Tapastic Library", "category": "comics", "url_template": "https://tapas.io/{q}/library" },
   { "label": "TeamTreehouse Badges", "category": "education", "url_template": "https://teamtreehouse.com/{q}/badges" },
-  { "label": "TechSpot Posts", "category": "tech", "url_template": "https://www.techspot.com/community/members/{q}/posts" }
+  { "label": "TechSpot Posts", "category": "tech", "url_template": "https://www.techspot.com/community/members/{q}/posts" }.
   { "label": "MyAnimeList Friends", "category": "anime", "url_template": "https://myanimelist.net/profile/{q}/friends" },
   { "label": "MyDramaList", "category": "tv", "url_template": "https://mydramalist.com/profile/{q}" },
   { "label": "MyFigureCollection Photos", "category": "hobby", "url_template": "https://myfigurecollection.net/profile/{q}/pictures" },
@@ -538,7 +538,7 @@
   { "label": "SublimeForum Posts", "category": "dev", "url_template": "https://forum.sublimetext.com/u/{q}/activity" },
   { "label": "Tapastic Library", "category": "comics", "url_template": "https://tapas.io/{q}/library" },
   { "label": "TeamTreehouse Badges", "category": "education", "url_template": "https://teamtreehouse.com/{q}/badges" },
-  { "label": "TechSpot Posts", "category": "tech", "url_template": "https://www.techspot.com/community/members/{q}/posts" }
+  { "label": "TechSpot Posts", "category": "tech", "url_template": "https://www.techspot.com/community/members/{q}/posts" },
   { "label": "Tinder", "category": "dating", "url_template": "https://www.gotinder.com/@{q}" },
   { "label": "Bumble", "category": "dating", "url_template": "https://bumble.com/en-us/profile/{q}" },
   { "label": "Hinge", "category": "dating", "url_template": "https://hinge.co/{q}" },
@@ -672,7 +672,7 @@
   { "label": "HackadayProfile", "category": "maker", "url_template": "https://hackaday.io/{q}" },
   { "label": "ThingiverseProfile", "category": "maker", "url_template": "https://www.thingiverse.com/{q}" },
   { "label": "Printables", "category": "maker", "url_template": "https://www.printables.com/social/{q}" },
-  { "label": "TinkerCADCommunity", "category": "maker", "url_template": "https://www.tinkercad.com/users/{q}" }
+  { "label": "TinkerCADCommunity", "category": "maker", "url_template": "https://www.tinkercad.com/users/{q}" },
   { "label": "NameMC", "category": "gaming", "url_template": "https://namemc.com/profile/{q}" },
   { "label": "Speedrun", "category": "gaming", "url_template": "https://www.speedrun.com/users/{q}" },
   { "label": "BackpackTF", "category": "gaming", "url_template": "https://backpack.tf/profiles/{q}" },
